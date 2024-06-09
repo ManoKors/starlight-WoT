@@ -69,7 +69,7 @@ export default defineConfig({
 			locales,
 			sidebar: [
 				{
-					label: 'Start Here',
+					label: '1. Introduction',
 					translations: {
 						de: 'Beginne hier',
 						es: 'Comienza aqui',
