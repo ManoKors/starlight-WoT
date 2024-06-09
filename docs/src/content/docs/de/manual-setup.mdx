@@ -1,7 +1,10 @@
 ---
-title: 2. Die Funktion Supersense benutzen
-description: Lerne wie du Starlight manuell konfigurierst, um es zu einem bestehenden Astro-Projekt hinzuzufügen.
+title: 2. Zitatzuordnung
+description: Die Zurodnung von Zitaten ist eine mächtige Komponente welche neue Möglichkeiten und Einblicke generieren kann.
 ---
+
+BookNLP erstellt aus dem gegebenen Text einen PandasDataframe, welcher die im gesamten Text vorhandenen Zitate den Personen im Roman zuzuordnen versucht.
+Leider gelingt das nicht immer - weshalb hier auch die Daten gesäubert werden müssen.
 
 Nachdem unser Programm den Text tokenized hat geht es im nächsten Schritt darum, die Daten zu bearbeiten und sinnige Ergebnisse daraus zu produzieren.
 
@@ -14,7 +17,7 @@ import pandas as pd
 Im nächsten Schritt wollen wir uns den Dataframe anzeigen lassen:
 
 ```python
-df = pd.read_csv("/work/wot1.supersense", delimiter="\t")
+df = pd.read_csv("/WoT1.quotes", delimiter="\t")
 df
 ```
 
