@@ -71,7 +71,7 @@ export default defineConfig({
 				{
 					label: '1. Introduction',
 					translations: {
-						de: 'Beginne hier',
+						de: '1. Einführung',
 						es: 'Comienza aqui',
 						ja: 'ここからはじめる',
 						fr: 'Commencez ici',
