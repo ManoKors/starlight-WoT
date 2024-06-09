@@ -1,13 +1,19 @@
 ---
-title: Erste Schritte
+title: 1. Erste Schritte
 description: Data Mining »The Wheel of Time« Romane
 ---
 
 import { Tabs, TabItem } from '@astrojs/starlight/components';
 
-## 1. Introduction
+## 1.1. Introduction
 
-Das Rad der Zeit ist eine Romanreihe, welche in den 1990ern vom amerikanischen Autoren Robert Jordan 
+Das Rad der Zeit ist eine Romanreihe, welche in den 1990ern vom us-amerikanischen Autoren Robert Jordan geschrieben wurde. Die Serie umfasst eine große Menge an Text und eignet sich daher sehr gut um Data Mining zu betreiben.
+
+Als erstes installieren wir die Python-Bibliothek `BookNLP`:
+
+```python
+from booknlp.booknlp import BookNLP
+```
 
 Starlight ist ein voll ausgestattetes Dokumentations-Theme, das auf dem [Astro](https://astro.build) Framework aufbaut.
 
